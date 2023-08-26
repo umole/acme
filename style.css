@@ -149,3 +149,31 @@ footer {
     color: #fff;
     font-weight: 2.6rem;
 }
+
+/* About */
+
+.main {
+    padding: 30px 0;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 10px;
+}
+
+.main-container #main-col {
+    grid-column: 1;
+}
+
+#main-col .page-title{
+    text-align: center;
+}
+
+.main-container #side-col {
+    grid-column: 2;
+    background: #35424A;
+    color: #fff;
+    padding: 20px;
+}
+
