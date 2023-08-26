@@ -88,7 +88,6 @@ header a:hover {
 }
 
 #newsletter h1 {
-
     float: left;
 }
 
@@ -101,4 +100,52 @@ header a:hover {
     padding: 4px;
     height: 25px;
     width: 250px;
+}
+
+.btn-1 {
+    padding: 0 20px;
+    height: 37px;
+    background: #e8491D;
+    color: #fff;
+    border-radius: 5%;
+    border: 0;
+}
+
+#boxes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#boxes .box {
+    flex: 1;
+    padding: 20px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+#boxes .box img {
+    max-width: 100%;
+    height: auto;
+}
+
+#boxes .box h3 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+#boxes .box p {
+    margin-top: 10px;
+    font-size: 1rem;
+}
+
+
+footer {
+    background-color: #e8491D;
+    min-height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: 2.6rem;
 }
